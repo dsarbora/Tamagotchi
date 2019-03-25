@@ -4,7 +4,55 @@
     <meta charset="utf-8">
     <title>Tamagotchi</title>
   </head>
-  <body>
-
+  <body class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-1 center">
+          <h4 class="label top">Hunger:</h4>
+          <div id="foodDisplay" class="statBox center topBox">
+          </div>
+          <h4 class="label">Boredom:</h4>
+          <div id="boredomDisplay" class="statBox center">
+          </div>
+          <h4 class="label">Sleepiness:</h4>
+          <div id="tiredDisplay" class="statBox center">
+          </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-6">
+          <div class="view">
+            <img class="hidden" id="baron_leave" src="https://i2.wp.com/montrealrampage.com/wp-content/uploads/2015/04/The-Crow-300x234.png?fit=300%2C234" alt="Crow with suitcase">
+            <img id="baron" src="https://external-preview.redd.it/XQUUGlwuFR28ktjRyYoJs9vSw2jRCv8NtIL_6DHxx9Y.png?auto=webp&s=71d728eb4c6a9f97e54a3b1bc2746fcfb6aa9c01" alt="Picture of the most magnanimous baron Crow von Murderr.">
+            <img class="hidden" id="baron_feed" src="https://images-na.ssl-images-amazon.com/images/I/415Y%2BsV0ZrL.jpg" alt="Picture of the most magnanimous baron Crow von Murderr.">
+            <img class="hidden" id="baron_entertain" src="https://i.pinimg.com/236x/5a/d7/4f/5ad74fcb1846df7e7facde2c54e2c4a7--spooky-tattoos-crow-tattoos.jpg?b=t" alt="Picture of the most magnanimous baron Crow von Murderr.">
+            <!-- <img src="./img/baron_crow.png" alt="Picture of the most magnanimous baron Crow von Murderr."> -->
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-2 center">
+          <button id="feed" class="btn btn-success">Feed</button>
+        </div>
+        <div class="col-md-2 center">
+          <button id="play" class="btn btn-info">Play</button>
+          <div id="runaway">
+            <h4> I ran away :'(</h4>
+          </div>
+        </div>
+        <div class="col-md-2 center">
+          <button id="sleep" class="btn btn-danger">Sleep</button>
+          <button id="awaken" class="btn btn-warning hidden">Wake Up</button>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
