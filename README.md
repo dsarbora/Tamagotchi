@@ -26,23 +26,101 @@ A web Tamagotchi game that allows users to interact and care for a virtual creat
   </tr>
   <tr>
     <td> Behavior </td>
-    <td> As a user interested in astronomy, I want to be able to see my age in Mercury years. </td>
+    <td> As a Tamagotchi owner, I want to be able to see the status of my pet. </td>
   </tr>
   <tr>
     <td> Input </td>
-    <td> 25 </td>
+    <td> Viewing game space </td>
   </tr>
   <tr>
     <td> Output </td>
-    <td> 6 </td>
+    <td> Tamagotchi stats displayed </td>
   </tr>
   <tr>
     <td> Notes </td>
-    <td> Mercury years are 0.24 Telluris years </td>
+    <td> Stats show hunger, tiredness, boredom (and other) levels </td>
   </tr>
   <tr>
     <td> Completion </td>
-    <td> True </td>
+    <td> False </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th> Scenario 02 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td> As a Tamagotchi owner, I want my pet to have needs. </td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> Intervals of time, no user input </td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td> Tamagotchi stats lower/raise over time </td>
+  </tr>
+  <tr>
+    <td> Notes </td>
+    <td> Stats will change based on time passed (e.g. hunger will go up) </td>
+  </tr>
+  <tr>
+    <td> Completion </td>
+    <td> False </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th> Scenario 03 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td> As a Tamagotchi owner, I want to be able to fulfill my pet's needs. </td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> Click action button (e.g. "Feed") to satisfy a stat </td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td> Relevant stat will increase/reset to a level of satisfied </td>
+  </tr>
+  <tr>
+    <td> Notes </td>
+    <td> The player should be able to feed, play with, let sleep, etc their pet. </td>
+  </tr>
+  <tr>
+    <td> Completion </td>
+    <td> False </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th> Scenario 04 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td> As a Tamagotchi, I want to be able to run away if my owner is a twit. </td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> Lack of user input, no caring for pet needs/stats </td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td> Game over. Tamagotchi escapes and runs away. </td>
+  </tr>
+  <tr>
+    <td> Notes </td>
+    <td> The player shouldn't be a piece of work. </td>
+  </tr>
+  <tr>
+    <td> Completion </td>
+    <td> False </td>
   </tr>
 </table>
 </details>
